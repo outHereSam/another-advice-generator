@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   align-items: center;
   /* text-align: center; */
-  max-width: 520px;
+  max-width: 540px;
   padding: 50px 50px 70px 50px;
   background-color: hsl(217, 19%, 24%);
   border-radius: 12px;
@@ -60,4 +60,17 @@ body {
 
 #dice:hover {
   box-shadow: 0 0 16px 3px rgba(82, 255, 168, 0.7);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 560px) {
+  .container {
+    max-width: 340px;
+  }
+  .divider-mobile {
+    display: block;
+  }
+  .divider-desktop {
+    display: none;
+  }
 }
